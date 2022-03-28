@@ -11,14 +11,12 @@ import javax.persistence.Table;
 
 import lombok.Getter;
 import lombok.Setter;
-
-public class TipoCozinha {
 	
 	@Getter
 	@Setter
 	@Entity
 	@Table(name="TBL_TIPO_COZINHA")
-	public class Viagem {
+	public class TipoCozinha {
 		@Id
 		@GeneratedValue(strategy = GenerationType.IDENTITY)
 		@Column(name="ID_TIPO_COZINHA")
@@ -32,4 +30,3 @@ public class TipoCozinha {
 		
 	}
 
-}
